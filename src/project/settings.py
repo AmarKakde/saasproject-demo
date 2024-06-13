@@ -23,7 +23,7 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 SECRET_KEY = 'django-insecure-zz8mvhev-t%g_a()hul_6w545b3en!+^%(#s2(k*7l!1a*ac@d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     ".railway.app"
