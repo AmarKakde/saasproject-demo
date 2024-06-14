@@ -6,7 +6,8 @@ from django.conf import settings
 
 VENDOR_STATICFILES = {
     'flowbite.min.css':'https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css',
-    'flowbite.min.js':'https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js'
+    'flowbite.min.js':'https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js',
+    'flowbite.min.js.map':'https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js.map',    
 }
 
 STATICFILES_VENDOR_DIR = getattr(settings, 'STATICFILES_VENDOR_DIR')
