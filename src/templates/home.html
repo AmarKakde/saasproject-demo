@@ -3,10 +3,11 @@
 {% block title %}Home Page - {{block.super}}{% endblock title%}
 
 {% block content %}
+
+{% include 'nav/nav.html'%}
 <p>Hello Again...</p>
-<h1>{{page}}</h1>
-<h1>{{queryset}}</h1>
-<h1>{{total_page_visit}}</h1>
+<h1 class="text-lg font-medium text-pretty">{{page}}</h1>
+
 
 {{request.user}}
 {{request.method}}

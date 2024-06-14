@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from . import views
+from visits import views
 
 urlpatterns = [
     path('', view=views.return_view),
